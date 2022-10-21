@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&display=swap");
 
 body {
   margin: 0;
-  font-family: 'Fasthand', cursive;
+  font-family: "Fasthand", cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #e5d4ba;
-  background-color: #aebaae;
+  background-color: #ececec;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

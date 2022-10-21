@@ -2,15 +2,21 @@
   text-align: center;
 }
 
-.logo-image {
-  border-radius: 50px;
-  display: inline-block;
-  text-align: start;
-}
-
 header {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1em;
+}
+
+.title-background {
+  background-image: url("./images/white-brush-stroke.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-background h1 {
+  color: #142d4c;
+  font-size: 2em;
 }

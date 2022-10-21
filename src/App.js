@@ -1,19 +1,24 @@
-
-import logo from "./logo.png";
-import { AiOutlineSearch } from 'react-icons/ai';
-import './App.css';
+import { GiMagickTrick } from "react-icons/gi";
+import { AiOutlineSearch } from "react-icons/ai";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header>
-        <img className="logo-image" src={logo} alt="dictionary logo" width={100} />
-        <h1>Welcome to the Magic Dictionary</h1>
+        <GiMagickTrick size={50} />
+        <div className="title-background">
+          <h1>Welcome to the magic Dictionary</h1>
+        </div>
       </header>
       <form>
         <div>
           <label for="search-word"></label>
-          <input id="search-word" type="search" placeholder="Search for a word" />
+          <input
+            id="search-word"
+            type="search"
+            placeholder="Search for a word"
+          />
           <button>
             <AiOutlineSearch />
           </button>
