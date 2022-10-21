@@ -2,7 +2,10 @@
   text-align: center;
 }
 
-header {
+.container {
+}
+
+.app-header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,13 +13,21 @@ header {
 }
 
 .title-background {
-  background-image: url("./images/white-brush-stroke.png");
+  /* background-image: url("./images/white-brush-stroke.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 
 .title-background h1 {
   color: #142d4c;
   font-size: 2em;
+}
+
+.main {
+}
+
+.app-footer {
+  text-align: center;
+  margin: 30px 0;
 }
