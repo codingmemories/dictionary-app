@@ -2,6 +2,7 @@ import React from "react";
 
 import Meaning from "../Meaning/Meaning";
 
+import img from "../../images/magic-background.gif";
 import "./results.css";
 
 export default function Results(props) {
@@ -21,6 +22,6 @@ export default function Results(props) {
       </div>
     );
   } else {
-    return null;
+    return <img className="magic-background" src={img} alt="witch with pot" />;
   }
 }
