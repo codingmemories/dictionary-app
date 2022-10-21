@@ -1,3 +1,7 @@
+.results {
+  text-align: start;
+}
+
 .magic-background {
   border-radius: 50%;
   max-width: 20%;
