@@ -7,8 +7,6 @@ import img from "../../images/magic-background.gif";
 import "./results.css";
 
 export default function Results(props) {
-  console.log(props.results);
-
   if (props.results) {
     return (
       <div className="results">

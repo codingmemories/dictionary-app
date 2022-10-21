@@ -18,7 +18,33 @@ function App() {
           <Dictionary />
         </main>
         <footer className="app-footer">
-          <small>Coded by Vasylyna Lykhogodenko</small>
+          <small>
+            {" "}
+            This project was coded by{" "}
+            <a
+              href="https://www.linkedin.com/in/vasylyna-lykhogodenko/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Vasylyna Lykhogodenko
+            </a>{" "}
+            and is{" "}
+            <a
+              href="https://github.com/codingmemories/dictionary-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              open-sourced on GitHub
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://magic-dictionary-app.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              hosted on Netlify
+            </a>
+          </small>
         </footer>
       </div>
     </div>

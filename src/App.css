@@ -2,9 +2,6 @@
   text-align: center;
 }
 
-.container {
-}
-
 .app-header {
   display: flex;
   justify-content: center;
@@ -12,19 +9,9 @@
   gap: 1em;
 }
 
-.title-background {
-  /* background-image: url("./images/white-brush-stroke.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-}
-
 .title-background h1 {
   color: #ececec;
   font-size: 2em;
-}
-
-.main {
 }
 
 .app-footer {

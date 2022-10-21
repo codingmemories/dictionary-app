@@ -1,0 +1,11 @@
+.photos img {
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.photos-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
